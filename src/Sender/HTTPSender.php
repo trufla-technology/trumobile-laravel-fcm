@@ -27,9 +27,9 @@ abstract class HTTPSender
      * Initializes a new sender object.
      *
      * @param \GuzzleHttp\ClientInterface $client
-     * @param string                     $url
+     * @param string $url
      */
-    public function __construct(ClientInterface $client, $url)
+    public function __construct(ClientInterface $client, string $url)
     {
         $this->client = $client;
         $this->url = $url;

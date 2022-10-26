@@ -13,7 +13,7 @@ class InvalidRequestException extends Exception
     /**
      * InvalidRequestException constructor.
      *
-     * @param \Psr\Http\Message\ResponseInterface $response
+     * @param ResponseInterface $response
      */
     public function __construct(ResponseInterface $response)
     {

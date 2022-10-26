@@ -25,7 +25,7 @@ abstract class BaseResponse
     /**
      * BaseResponse constructor.
      *
-     * @param \Psr\Http\Message\ResponseInterface $response
+     * @param ResponseInterface $response
      */
     public function __construct(ResponseInterface $response)
     {
@@ -38,13 +38,13 @@ abstract class BaseResponse
     /**
      * Check if the response given by fcm is parsable.
      *
-     * @param \Psr\Http\Message\ResponseInterface $response
+     * @param ResponseInterface $response
      *
      * @throws InvalidRequestException
      * @throws ServerResponseException
      * @throws UnauthorizedRequestException
      */
-    private function isJsonResponse(ResponseInterface $response)
+    private function isJsonResponse(ResponseInterface $response): void
     {
         if ($response->getStatusCode() == 200) {
             return;
@@ -66,7 +66,7 @@ abstract class BaseResponse
      *
      * @param array $responseInJson
      */
-    abstract protected function parseResponse($responseInJson);
+    abstract protected function parseResponse(array $responseInJson);
 
     /**
      * Log the response.

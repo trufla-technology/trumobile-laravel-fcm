@@ -3,7 +3,7 @@
 use GuzzleHttp\Psr7\Response;
 use LaravelFCM\Response\TopicResponse;
 
-class TopicsResponseTest extends FCMTestCase
+class TopicResponseTest extends FCMTestCase
 {
     /**
      * @test

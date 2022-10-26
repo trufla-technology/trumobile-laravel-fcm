@@ -7,15 +7,14 @@ use Illuminate\Support\Manager;
 
 class FCMManager extends Manager
 {
-    public function getDefaultDriver()
+    public function getDefaultDriver(): string
     {
-        return $this->app[ 'config' ][ 'fcm.driver' ];
+        return $this->getContainer()['config']['fcm.driver'];
     }
 
-    protected function createHttpDriver()
+    protected function createHttpDriver(): Client
     {
-        $config = $this->app[ 'config' ]->get('fcm.http', []);
-
-        return new Client(['timeout' => $config[ 'timeout' ]]);
+        $config = $this->getContainer()['config']->get('fcm.http', []);
+        return new Client(['timeout' => $config['timeout']]);
     }
 }

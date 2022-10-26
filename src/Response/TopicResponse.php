@@ -57,9 +57,9 @@ class TopicResponse extends BaseResponse implements TopicResponseContract
     /**
      * parse the response.
      *
-     * @param $responseInJson
+     * @param array $responseInJson
      */
-    protected function parseResponse($responseInJson)
+    protected function parseResponse(array $responseInJson)
     {
         if (!$this->parseSuccess($responseInJson)) {
             $this->parseError($responseInJson);

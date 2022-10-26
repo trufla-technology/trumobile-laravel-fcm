@@ -11,6 +11,7 @@ use LaravelFCM\Response\TopicResponse;
 use GuzzleHttp\Exception\ClientException;
 use LaravelFCM\Response\DownstreamResponse;
 use LaravelFCM\Message\PayloadNotification;
+use Psr\Http\Message\ResponseInterface;
 
 /**
  * Class FCMSender.
@@ -99,11 +100,11 @@ class FCMSender extends HTTPSender
     }
 
     /**
-     * @internal
+     * @param Request $request
      *
-     * @param \LaravelFCM\Request\Request $request
+     * @return null|ResponseInterface
+     *@internal
      *
-     * @return null|\Psr\Http\Message\ResponseInterface
      */
     protected function post($request)
     {

@@ -56,9 +56,9 @@ class GroupResponse extends BaseResponse implements GroupResponseContract
     /**
      * parse the response.
      *
-     * @param $responseInJson
+     * @param array $responseInJson
      */
-    protected function parseResponse($responseInJson)
+    protected function parseResponse(array $responseInJson)
     {
         if ($this->parse($responseInJson)) {
             $this->parseFailed($responseInJson);

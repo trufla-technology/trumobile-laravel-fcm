@@ -51,10 +51,10 @@ class Request extends BaseRequest
      * Request constructor.
      *
      * @param                     $to
-     * @param Options             $options
-     * @param PayloadNotification $notification
-     * @param PayloadData         $data
-     * @param Topics|null         $topic
+     * @param Options|null $options
+     * @param PayloadNotification|null $notification
+     * @param PayloadData|null $data
+     * @param Topics|null $topic
      */
     public function __construct($to, Options $options = null, PayloadNotification $notification = null, PayloadData $data = null, Topics $topic = null)
     {
@@ -136,7 +136,7 @@ class Request extends BaseRequest
      */
     protected function getNotification()
     {
-        return $this->notification ? $this->notification->toArray() : null;
+        return $this->notification?->toArray();
     }
 
     /**
@@ -146,6 +146,6 @@ class Request extends BaseRequest
      */
     protected function getData()
     {
-        return $this->data ? $this->data->toArray() : null;
+        return $this->data?->toArray();
     }
 }

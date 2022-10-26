@@ -39,6 +39,7 @@ abstract class BaseRequest
         return [
             'Authorization' => 'key='.$this->config['server_key'],
             'Content-Type' => 'application/json',
+            'Accept' => 'application/json',
             'project_id' => $this->config['sender_id'],
         ];
     }
@@ -59,7 +60,7 @@ abstract class BaseRequest
     {
         return [
             'headers' => $this->buildRequestHeader(),
-            'json' => $this->buildBody(),
+            'body' => json_encode($this->buildBody()),
         ];
     }
 }

@@ -159,7 +159,7 @@ class DownstreamResponseTest extends FCMTestCase
         $this->assertCount(0, $downstreamResponse->tokensToDelete());
         $this->assertCount(1, $downstreamResponse->tokensToModify());
 
-        $this->assertTrue(array_key_exists($token, $downstreamResponse->tokensToModify()));
+        $this->assertArrayHasKey($token, $downstreamResponse->tokensToModify());
         $this->assertEquals('32', $downstreamResponse->tokensToModify()[ $token ]);
     }
 
