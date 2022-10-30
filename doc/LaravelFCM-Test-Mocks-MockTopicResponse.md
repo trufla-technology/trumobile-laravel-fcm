@@ -1,4 +1,4 @@
-TruMobileLaravelFCM\Test\Mocks\MockTopicResponse
+LaravelFCM\Test\Mocks\MockTopicResponse
 ===============
 
 Class MockTopicResponse **Only use it for testing**
@@ -7,8 +7,8 @@ Class MockTopicResponse **Only use it for testing**
 
 
 * Class name: MockTopicResponse
-* Namespace: TruMobileLaravelFCM\Test\Mocks
-* This class implements: [TruMobileLaravelFCM\Response\TopicResponseContract](TruMobileLaravelFCM-Response-TopicResponseContract.md)
+* Namespace: LaravelFCM\Test\Mocks
+* This class implements: [LaravelFCM\Response\TopicResponseContract](LaravelFCM-Response-TopicResponseContract.md)
 
 
 
@@ -21,7 +21,7 @@ Methods
 
 ### setSuccess
 
-    mixed TruMobileLaravelFCM\Test\Mocks\MockTopicResponse::setSuccess($messageId)
+    mixed LaravelFCM\Test\Mocks\MockTopicResponse::setSuccess($messageId)
 
 if success set a message id
 
@@ -37,21 +37,21 @@ if success set a message id
 
 ### isSuccess
 
-    boolean TruMobileLaravelFCM\Response\TopicResponseContract::isSuccess()
+    boolean LaravelFCM\Response\TopicResponseContract::isSuccess()
 
 true if topic sent with success
 
 
 
 * Visibility: **public**
-* This method is defined by [TruMobileLaravelFCM\Response\TopicResponseContract](TruMobileLaravelFCM-Response-TopicResponseContract.md)
+* This method is defined by [LaravelFCM\Response\TopicResponseContract](LaravelFCM-Response-TopicResponseContract.md)
 
 
 
 
 ### setError
 
-    mixed TruMobileLaravelFCM\Test\Mocks\MockTopicResponse::setError($error)
+    mixed LaravelFCM\Test\Mocks\MockTopicResponse::setError($error)
 
 set error
 
@@ -67,7 +67,7 @@ set error
 
 ### error
 
-    string TruMobileLaravelFCM\Response\TopicResponseContract::error()
+    string LaravelFCM\Response\TopicResponseContract::error()
 
 return error message
 you should test if it's necessary to resent it
@@ -75,21 +75,21 @@ you should test if it's necessary to resent it
 
 
 * Visibility: **public**
-* This method is defined by [TruMobileLaravelFCM\Response\TopicResponseContract](TruMobileLaravelFCM-Response-TopicResponseContract.md)
+* This method is defined by [LaravelFCM\Response\TopicResponseContract](LaravelFCM-Response-TopicResponseContract.md)
 
 
 
 
 ### shouldRetry
 
-    boolean TruMobileLaravelFCM\Response\TopicResponseContract::shouldRetry()
+    boolean LaravelFCM\Response\TopicResponseContract::shouldRetry()
 
 return true if it's necessary resent it using exponential backoff
 
 
 
 * Visibility: **public**
-* This method is defined by [TruMobileLaravelFCM\Response\TopicResponseContract](TruMobileLaravelFCM-Response-TopicResponseContract.md)
+* This method is defined by [LaravelFCM\Response\TopicResponseContract](LaravelFCM-Response-TopicResponseContract.md)
 
 
 

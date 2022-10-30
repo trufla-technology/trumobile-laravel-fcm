@@ -1,4 +1,4 @@
-TruMobileLaravelFCM\Response\Exceptions\ServerResponseException
+LaravelFCM\Response\Exceptions\ServerResponseException
 ===============
 
 Class ServerResponseException
@@ -7,7 +7,7 @@ Class ServerResponseException
 
 
 * Class name: ServerResponseException
-* Namespace: TruMobileLaravelFCM\Response\Exceptions
+* Namespace: LaravelFCM\Response\Exceptions
 * Parent class: Exception
 
 
@@ -35,7 +35,7 @@ Methods
 
 ### __construct
 
-    mixed TruMobileLaravelFCM\Response\Exceptions\ServerResponseException::__construct(\GuzzleHttp\Psr7\Response $response)
+    mixed LaravelFCM\Response\Exceptions\ServerResponseException::__construct(\GuzzleHttp\Psr7\Response $response)
 
 ServerResponseException constructor.
 

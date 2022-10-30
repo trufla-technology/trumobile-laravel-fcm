@@ -1,11 +1,11 @@
 <?php
 
-namespace TruMobileLaravelFCM\Request;
+namespace LaravelFCM\Request;
 
-use TruMobileLaravelFCM\Message\Topics;
-use TruMobileLaravelFCM\Message\Options;
-use TruMobileLaravelFCM\Message\PayloadData;
-use TruMobileLaravelFCM\Message\PayloadNotification;
+use LaravelFCM\Message\Topics;
+use LaravelFCM\Message\Options;
+use LaravelFCM\Message\PayloadData;
+use LaravelFCM\Message\PayloadNotification;
 
 /**
  * Class Request.

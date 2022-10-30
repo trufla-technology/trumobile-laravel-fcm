@@ -1,6 +1,6 @@
 <?php
 
-namespace TruMobileLaravelFCM\Response;
+namespace LaravelFCM\Response;
 
 use Monolog\Logger;
 use Monolog\Handler\StreamHandler;

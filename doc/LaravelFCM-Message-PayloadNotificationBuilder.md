@@ -1,4 +1,4 @@
-TruMobileLaravelFCM\Message\PayloadNotificationBuilder
+LaravelFCM\Message\PayloadNotificationBuilder
 ===============
 
 Class PayloadNotificationBuilder
@@ -7,7 +7,7 @@ Official google documentation :
 
 
 * Class name: PayloadNotificationBuilder
-* Namespace: TruMobileLaravelFCM\Message
+* Namespace: LaravelFCM\Message
 
 
 
@@ -21,7 +21,7 @@ Methods
 
 ### __construct
 
-    mixed TruMobileLaravelFCM\Message\PayloadNotificationBuilder::__construct(String $title)
+    mixed LaravelFCM\Message\PayloadNotificationBuilder::__construct(String $title)
 
 Title must be present on android notification and ios (watch) notification
 
@@ -37,7 +37,7 @@ Title must be present on android notification and ios (watch) notification
 
 ### setTitle
 
-    \TruMobileLaravelFCM\Message\PayloadNotificationBuilder TruMobileLaravelFCM\Message\PayloadNotificationBuilder::setTitle(String $title)
+    \LaravelFCM\Message\PayloadNotificationBuilder LaravelFCM\Message\PayloadNotificationBuilder::setTitle(String $title)
 
 Indicates notification title. This field is not visible on iOS phones and tablets.
 
@@ -53,7 +53,7 @@ but it is required for android
 
 ### setBody
 
-    \TruMobileLaravelFCM\Message\PayloadNotificationBuilder TruMobileLaravelFCM\Message\PayloadNotificationBuilder::setBody(String $body)
+    \LaravelFCM\Message\PayloadNotificationBuilder LaravelFCM\Message\PayloadNotificationBuilder::setBody(String $body)
 
 Indicates notification body text.
 
@@ -69,7 +69,7 @@ Indicates notification body text.
 
 ### setIcon
 
-    \TruMobileLaravelFCM\Message\PayloadNotificationBuilder TruMobileLaravelFCM\Message\PayloadNotificationBuilder::setIcon(String $icon)
+    \LaravelFCM\Message\PayloadNotificationBuilder LaravelFCM\Message\PayloadNotificationBuilder::setIcon(String $icon)
 
 Supported Android
 Indicates notification icon. example : Sets value to myicon for drawable resource myicon.
@@ -86,7 +86,7 @@ Indicates notification icon. example : Sets value to myicon for drawable resourc
 
 ### setSound
 
-    \TruMobileLaravelFCM\Message\PayloadNotificationBuilder TruMobileLaravelFCM\Message\PayloadNotificationBuilder::setSound(String $sound)
+    \LaravelFCM\Message\PayloadNotificationBuilder LaravelFCM\Message\PayloadNotificationBuilder::setSound(String $sound)
 
 Indicates a sound to play when the device receives a notification.
 
@@ -102,7 +102,7 @@ Supports default or the filename of a sound resource bundled in the app.
 
 ### setBadge
 
-    \TruMobileLaravelFCM\Message\PayloadNotificationBuilder TruMobileLaravelFCM\Message\PayloadNotificationBuilder::setBadge(String $badge)
+    \LaravelFCM\Message\PayloadNotificationBuilder LaravelFCM\Message\PayloadNotificationBuilder::setBadge(String $badge)
 
 Supported Ios
 
@@ -118,7 +118,7 @@ Indicates the badge on the client app home icon.
 
 ### setTag
 
-    \TruMobileLaravelFCM\Message\PayloadNotificationBuilder TruMobileLaravelFCM\Message\PayloadNotificationBuilder::setTag(String $tag)
+    \LaravelFCM\Message\PayloadNotificationBuilder LaravelFCM\Message\PayloadNotificationBuilder::setTag(String $tag)
 
 Supported Android
 
@@ -136,7 +136,7 @@ If set, and a notification with the same tag is already being shown, the new not
 
 ### setColor
 
-    \TruMobileLaravelFCM\Message\PayloadNotificationBuilder TruMobileLaravelFCM\Message\PayloadNotificationBuilder::setColor(String $color)
+    \LaravelFCM\Message\PayloadNotificationBuilder LaravelFCM\Message\PayloadNotificationBuilder::setColor(String $color)
 
 Supported Android
 
@@ -152,7 +152,7 @@ Indicates color of the icon, expressed in #rrggbb format
 
 ### setClickAction
 
-    \TruMobileLaravelFCM\Message\PayloadNotificationBuilder TruMobileLaravelFCM\Message\PayloadNotificationBuilder::setClickAction(String $action)
+    \LaravelFCM\Message\PayloadNotificationBuilder LaravelFCM\Message\PayloadNotificationBuilder::setClickAction(String $action)
 
 Indicates the action associated with a user click on the notification
 
@@ -168,7 +168,7 @@ Indicates the action associated with a user click on the notification
 
 ### setTitleLocationKey
 
-    \TruMobileLaravelFCM\Message\PayloadNotificationBuilder TruMobileLaravelFCM\Message\PayloadNotificationBuilder::setTitleLocationKey(String $titleKey)
+    \LaravelFCM\Message\PayloadNotificationBuilder LaravelFCM\Message\PayloadNotificationBuilder::setTitleLocationKey(String $titleKey)
 
 Indicates the key to the title string for localization.
 
@@ -184,7 +184,7 @@ Indicates the key to the title string for localization.
 
 ### setTitleLocationArgs
 
-    \TruMobileLaravelFCM\Message\PayloadNotificationBuilder TruMobileLaravelFCM\Message\PayloadNotificationBuilder::setTitleLocationArgs(mixed $titleArgs)
+    \LaravelFCM\Message\PayloadNotificationBuilder LaravelFCM\Message\PayloadNotificationBuilder::setTitleLocationArgs(mixed $titleArgs)
 
 Indicates the string value to replace format specifiers in the title string for localization.
 
@@ -200,7 +200,7 @@ Indicates the string value to replace format specifiers in the title string for 
 
 ### setBodyLocationKey
 
-    \TruMobileLaravelFCM\Message\PayloadNotificationBuilder TruMobileLaravelFCM\Message\PayloadNotificationBuilder::setBodyLocationKey(String $bodyKey)
+    \LaravelFCM\Message\PayloadNotificationBuilder LaravelFCM\Message\PayloadNotificationBuilder::setBodyLocationKey(String $bodyKey)
 
 Indicates the key to the body string for localization.
 
@@ -216,7 +216,7 @@ Indicates the key to the body string for localization.
 
 ### setBodyLocationArgs
 
-    \TruMobileLaravelFCM\Message\PayloadNotificationBuilder TruMobileLaravelFCM\Message\PayloadNotificationBuilder::setBodyLocationArgs(mixed $bodyArgs)
+    \LaravelFCM\Message\PayloadNotificationBuilder LaravelFCM\Message\PayloadNotificationBuilder::setBodyLocationArgs(mixed $bodyArgs)
 
 Indicates the string value to replace format specifiers in the body string for localization.
 
@@ -232,7 +232,7 @@ Indicates the string value to replace format specifiers in the body string for l
 
 ### getTitle
 
-    null|String TruMobileLaravelFCM\Message\PayloadNotificationBuilder::getTitle()
+    null|String LaravelFCM\Message\PayloadNotificationBuilder::getTitle()
 
 Get title
 
@@ -245,7 +245,7 @@ Get title
 
 ### getBody
 
-    null|String TruMobileLaravelFCM\Message\PayloadNotificationBuilder::getBody()
+    null|String LaravelFCM\Message\PayloadNotificationBuilder::getBody()
 
 Get body
 
@@ -258,7 +258,7 @@ Get body
 
 ### getIcon
 
-    null|String TruMobileLaravelFCM\Message\PayloadNotificationBuilder::getIcon()
+    null|String LaravelFCM\Message\PayloadNotificationBuilder::getIcon()
 
 Get Icon
 
@@ -271,7 +271,7 @@ Get Icon
 
 ### getSound
 
-    null|String TruMobileLaravelFCM\Message\PayloadNotificationBuilder::getSound()
+    null|String LaravelFCM\Message\PayloadNotificationBuilder::getSound()
 
 Get Sound
 
@@ -284,7 +284,7 @@ Get Sound
 
 ### getBadge
 
-    null|String TruMobileLaravelFCM\Message\PayloadNotificationBuilder::getBadge()
+    null|String LaravelFCM\Message\PayloadNotificationBuilder::getBadge()
 
 Get Badge
 
@@ -297,7 +297,7 @@ Get Badge
 
 ### getTag
 
-    null|String TruMobileLaravelFCM\Message\PayloadNotificationBuilder::getTag()
+    null|String LaravelFCM\Message\PayloadNotificationBuilder::getTag()
 
 Get Tag
 
@@ -310,7 +310,7 @@ Get Tag
 
 ### getColor
 
-    null|String TruMobileLaravelFCM\Message\PayloadNotificationBuilder::getColor()
+    null|String LaravelFCM\Message\PayloadNotificationBuilder::getColor()
 
 Get Color
 
@@ -323,7 +323,7 @@ Get Color
 
 ### getClickAction
 
-    null|String TruMobileLaravelFCM\Message\PayloadNotificationBuilder::getClickAction()
+    null|String LaravelFCM\Message\PayloadNotificationBuilder::getClickAction()
 
 Get ClickAction
 
@@ -336,7 +336,7 @@ Get ClickAction
 
 ### getBodyLocationKey
 
-    null|String TruMobileLaravelFCM\Message\PayloadNotificationBuilder::getBodyLocationKey()
+    null|String LaravelFCM\Message\PayloadNotificationBuilder::getBodyLocationKey()
 
 Get BodyLocationKey
 
@@ -349,7 +349,7 @@ Get BodyLocationKey
 
 ### getBodyLocationArgs
 
-    null|String|array TruMobileLaravelFCM\Message\PayloadNotificationBuilder::getBodyLocationArgs()
+    null|String|array LaravelFCM\Message\PayloadNotificationBuilder::getBodyLocationArgs()
 
 Get BodyLocationArgs
 
@@ -362,7 +362,7 @@ Get BodyLocationArgs
 
 ### getTitleLocationKey
 
-    string TruMobileLaravelFCM\Message\PayloadNotificationBuilder::getTitleLocationKey()
+    string LaravelFCM\Message\PayloadNotificationBuilder::getTitleLocationKey()
 
 Get TitleLocationKey
 
@@ -375,7 +375,7 @@ Get TitleLocationKey
 
 ### getTitleLocationArgs
 
-    null|String|array TruMobileLaravelFCM\Message\PayloadNotificationBuilder::getTitleLocationArgs()
+    null|String|array LaravelFCM\Message\PayloadNotificationBuilder::getTitleLocationArgs()
 
 GetTitleLocationArgs
 
@@ -388,7 +388,7 @@ GetTitleLocationArgs
 
 ### build
 
-    \TruMobileLaravelFCM\Message\PayloadNotification TruMobileLaravelFCM\Message\PayloadNotificationBuilder::build()
+    \LaravelFCM\Message\PayloadNotification LaravelFCM\Message\PayloadNotificationBuilder::build()
 
 Build an PayloadNotification
 

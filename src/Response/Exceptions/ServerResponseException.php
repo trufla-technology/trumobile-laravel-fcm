@@ -1,6 +1,6 @@
 <?php
 
-namespace TruMobileLaravelFCM\Response\Exceptions;
+namespace LaravelFCM\Response\Exceptions;
 
 use Exception;
 use Psr\Http\Message\ResponseInterface;

@@ -9,7 +9,7 @@ abstract class FCMTestCase extends TestCase
         $app = require __DIR__.'/../vendor/laravel/laravel/bootstrap/app.php';
 
         $app->make(Illuminate\Contracts\Console\Kernel::class)->bootstrap();
-        $app->register(TruMobileLaravelFCM\FCMServiceProvider::class);
+        $app->register(LaravelFCM\FCMServiceProvider::class);
 
         $app['config']['fcm.driver'] = 'http';
         $app['config']['fcm.http.timeout'] = 20;

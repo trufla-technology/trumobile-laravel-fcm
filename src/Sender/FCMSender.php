@@ -1,16 +1,16 @@
 <?php
 
-namespace TruMobileLaravelFCM\Sender;
+namespace LaravelFCM\Sender;
 
-use TruMobileLaravelFCM\Message\Topics;
-use TruMobileLaravelFCM\Request\Request;
-use TruMobileLaravelFCM\Message\Options;
-use TruMobileLaravelFCM\Message\PayloadData;
-use TruMobileLaravelFCM\Response\GroupResponse;
-use TruMobileLaravelFCM\Response\TopicResponse;
+use LaravelFCM\Message\Topics;
+use LaravelFCM\Request\Request;
+use LaravelFCM\Message\Options;
+use LaravelFCM\Message\PayloadData;
+use LaravelFCM\Response\GroupResponse;
+use LaravelFCM\Response\TopicResponse;
 use GuzzleHttp\Exception\ClientException;
-use TruMobileLaravelFCM\Response\DownstreamResponse;
-use TruMobileLaravelFCM\Message\PayloadNotification;
+use LaravelFCM\Response\DownstreamResponse;
+use LaravelFCM\Message\PayloadNotification;
 use Psr\Http\Message\ResponseInterface;
 
 /**

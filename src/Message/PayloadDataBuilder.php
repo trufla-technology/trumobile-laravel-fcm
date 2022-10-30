@@ -1,6 +1,6 @@
 <?php
 
-namespace TruMobileLaravelFCM\Message;
+namespace LaravelFCM\Message;
 
 /**
  * Class PayloadDataBuilder.

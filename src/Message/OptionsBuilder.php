@@ -1,8 +1,8 @@
 <?php
 
-namespace TruMobileLaravelFCM\Message;
+namespace LaravelFCM\Message;
 
-use TruMobileLaravelFCM\Message\Exceptions\InvalidOptionsException;
+use LaravelFCM\Message\Exceptions\InvalidOptionsException;
 use ReflectionClass;
 
 /**
@@ -75,7 +75,7 @@ class OptionsBuilder
      *
      * @param string $collapseKey
      *
-     * @return \TruMobileLaravelFCM\Message\OptionsBuilder
+     * @return \LaravelFCM\Message\OptionsBuilder
      */
     public function setCollapseKey($collapseKey)
     {
@@ -90,7 +90,7 @@ class OptionsBuilder
      *
      * @param string $priority
      *
-     * @return \TruMobileLaravelFCM\Message\OptionsBuilder
+     * @return \LaravelFCM\Message\OptionsBuilder
      *
      * @throws InvalidOptionsException
      * @throws \ReflectionException
@@ -115,7 +115,7 @@ class OptionsBuilder
      *
      * @param bool $contentAvailable
      *
-     * @return \TruMobileLaravelFCM\Message\OptionsBuilder
+     * @return \LaravelFCM\Message\OptionsBuilder
      */
     public function setContentAvailable($contentAvailable)
     {
@@ -145,7 +145,7 @@ class OptionsBuilder
      *
      * @param bool $delayWhileIdle
      *
-     * @return \TruMobileLaravelFCM\Message\OptionsBuilder
+     * @return \LaravelFCM\Message\OptionsBuilder
      */
     public function setDelayWhileIdle($delayWhileIdle)
     {
@@ -159,7 +159,7 @@ class OptionsBuilder
      *
      * @param int $timeToLive (in second) min:0 max:2419200
      *
-     * @return \TruMobileLaravelFCM\Message\OptionsBuilder
+     * @return \LaravelFCM\Message\OptionsBuilder
      *
      * @throws InvalidOptionsException
      */
@@ -178,7 +178,7 @@ class OptionsBuilder
      *
      * @param string $restrictedPackageName
      *
-     * @return \TruMobileLaravelFCM\Message\OptionsBuilder
+     * @return \LaravelFCM\Message\OptionsBuilder
      */
     public function setRestrictedPackageName($restrictedPackageName)
     {
@@ -193,7 +193,7 @@ class OptionsBuilder
      *
      * @param bool $isDryRun
      *
-     * @return \TruMobileLaravelFCM\Message\OptionsBuilder
+     * @return \LaravelFCM\Message\OptionsBuilder
      */
     public function setDryRun($isDryRun)
     {

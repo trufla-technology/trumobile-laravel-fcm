@@ -1,4 +1,4 @@
-TruMobileLaravelFCM\Message\Exceptions\NoTopicProvidedException
+LaravelFCM\Message\Exceptions\NoTopicProvidedException
 ===============
 
 Class NoTopicProvidedException
@@ -7,7 +7,7 @@ Class NoTopicProvidedException
 
 
 * Class name: NoTopicProvidedException
-* Namespace: TruMobileLaravelFCM\Message\Exceptions
+* Namespace: LaravelFCM\Message\Exceptions
 * Parent class: Exception
 
 

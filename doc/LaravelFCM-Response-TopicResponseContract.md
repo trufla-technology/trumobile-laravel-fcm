@@ -1,4 +1,4 @@
-TruMobileLaravelFCM\Response\TopicResponseContract
+LaravelFCM\Response\TopicResponseContract
 ===============
 
 Interface TopicResponseContract
@@ -7,7 +7,7 @@ Interface TopicResponseContract
 
 
 * Interface name: TopicResponseContract
-* Namespace: TruMobileLaravelFCM\Response
+* Namespace: LaravelFCM\Response
 * This is an **interface**
 
 
@@ -21,7 +21,7 @@ Methods
 
 ### isSuccess
 
-    boolean TruMobileLaravelFCM\Response\TopicResponseContract::isSuccess()
+    boolean LaravelFCM\Response\TopicResponseContract::isSuccess()
 
 true if topic sent with success
 
@@ -34,7 +34,7 @@ true if topic sent with success
 
 ### error
 
-    string TruMobileLaravelFCM\Response\TopicResponseContract::error()
+    string LaravelFCM\Response\TopicResponseContract::error()
 
 return error message
 you should test if it's necessary to resent it
@@ -48,7 +48,7 @@ you should test if it's necessary to resent it
 
 ### shouldRetry
 
-    boolean TruMobileLaravelFCM\Response\TopicResponseContract::shouldRetry()
+    boolean LaravelFCM\Response\TopicResponseContract::shouldRetry()
 
 return true if it's necessary resent it using exponential backoff
 

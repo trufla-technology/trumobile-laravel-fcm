@@ -1,6 +1,6 @@
 <?php
 
-namespace TruMobileLaravelFCM\Facades;
+namespace LaravelFCM\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

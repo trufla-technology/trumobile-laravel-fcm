@@ -1,6 +1,6 @@
 <?php
 
-use TruMobileLaravelFCM\Response\GroupResponse;
+use LaravelFCM\Response\GroupResponse;
 
 class GroupResponseTest extends FCMTestCase
 {

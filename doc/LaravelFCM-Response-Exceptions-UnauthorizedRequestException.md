@@ -1,4 +1,4 @@
-TruMobileLaravelFCM\Response\Exceptions\UnauthorizedRequestException
+LaravelFCM\Response\Exceptions\UnauthorizedRequestException
 ===============
 
 Class UnauthorizedRequestException
@@ -7,7 +7,7 @@ Class UnauthorizedRequestException
 
 
 * Class name: UnauthorizedRequestException
-* Namespace: TruMobileLaravelFCM\Response\Exceptions
+* Namespace: LaravelFCM\Response\Exceptions
 * Parent class: Exception
 
 
@@ -22,7 +22,7 @@ Methods
 
 ### __construct
 
-    mixed TruMobileLaravelFCM\Response\Exceptions\UnauthorizedRequestException::__construct(\GuzzleHttp\Psr7\Response $response)
+    mixed LaravelFCM\Response\Exceptions\UnauthorizedRequestException::__construct(\GuzzleHttp\Psr7\Response $response)
 
 UnauthorizedRequestException constructor.
 

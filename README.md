@@ -45,7 +45,7 @@ Laravel >= 5.5 provides package auto-discovery, thanks to rasmuscnielsen and lui
 'providers' => [
 	// ...
 
-	TruMobileLaravelFCM\FCMServiceProvider::class,
+	LaravelFCM\FCMServiceProvider::class,
 ]
 ```
 
@@ -54,8 +54,8 @@ Add the facade aliases in the same file:
 ```php
 'aliases' => [
 	...
-	'FCM'      => TruMobileLaravelFCM\Facades\FCM::class,
-	'FCMGroup' => TruMobileLaravelFCM\Facades\FCMGroup::class, // Optional
+	'FCM'      => LaravelFCM\Facades\FCM::class,
+	'FCMGroup' => LaravelFCM\Facades\FCMGroup::class, // Optional
 ]
 ```
 
@@ -64,7 +64,7 @@ Add the facade aliases in the same file:
 Publish the package config file using the following command:
 
 
-	$ php artisan vendor:publish --provider="TruMobileLaravelFCM\FCMServiceProvider"
+	$ php artisan vendor:publish --provider="LaravelFCM\FCMServiceProvider"
 
 
 ### Lumen
@@ -74,14 +74,14 @@ Register the provider in your bootstrap app file ```boostrap/app.php```
 Add the following line in the "Register Service Providers"  section at the bottom of the file.
 
 ```php
-$app->register(TruMobileLaravelFCM\FCMServiceProvider::class);
+$app->register(LaravelFCM\FCMServiceProvider::class);
 ```
 
 For facades, add the following lines in the section "Create The Application" . FCMGroup facade is only necessary if you want to use groups message in your application.
 
 ```php
-class_alias(\TruMobileLaravelFCM\Facades\FCM::class, 'FCM');
-class_alias(\TruMobileLaravelFCM\Facades\FCMGroup::class, 'FCMGroup');
+class_alias(\LaravelFCM\Facades\FCM::class, 'FCM');
+class_alias(\LaravelFCM\Facades\FCMGroup::class, 'FCMGroup');
 ```
 
 Copy the config file ```fcm.php``` manually from the directory ```/vendor/brozot/laravel-fcm/config``` to the directory ```/config ``` (you may need to create this directory).
@@ -118,9 +118,9 @@ A downstream message is a notification message, a data message, or both, that yo
 The following use statements are required for the examples below:
 
 ```php
-use TruMobileLaravelFCM\Message\OptionsBuilder;
-use TruMobileLaravelFCM\Message\PayloadDataBuilder;
-use TruMobileLaravelFCM\Message\PayloadNotificationBuilder;
+use LaravelFCM\Message\OptionsBuilder;
+use LaravelFCM\Message\PayloadDataBuilder;
+use LaravelFCM\Message\PayloadNotificationBuilder;
 use FCM;
 ```
 
@@ -212,7 +212,7 @@ A topics message is a notification message, data message, or both, that you send
 The following use statement is required for the examples below:
 
 ```php
-use TruMobileLaravelFCM\Message\Topics;
+use LaravelFCM\Message\Topics;
 ```
 
 #### Sending a Message to a Topic
@@ -420,13 +420,13 @@ You can mock the FCM call as in the following example:
 
 ```php
 $numberSucess = 2;
-$mockResponse = new \TruMobileLaravelFCM\Mocks\MockDownstreamResponse(numberSucess);
+$mockResponse = new \LaravelFCM\Mocks\MockDownstreamResponse(numberSucess);
 
 $mockResponse->addTokenToDelete('token_to_delete');
 $mockResponse->addTokenToModify('token_to_modify', 'token_modified');
 $mockResponse->setMissingToken(true);
 
-$sender = Mockery::mock(\TruMobileLaravelFCM\Sender\FCMSender::class);
+$sender = Mockery::mock(\LaravelFCM\Sender\FCMSender::class);
 $sender->shouldReceive('sendTo')->once()->andReturn($mockResponse);
 
 $this->app->singleton('fcm.sender', function($app) use($sender) {

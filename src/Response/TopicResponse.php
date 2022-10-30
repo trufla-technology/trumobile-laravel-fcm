@@ -1,9 +1,9 @@
 <?php
 
-namespace TruMobileLaravelFCM\Response;
+namespace LaravelFCM\Response;
 
 use Monolog\Logger;
-use TruMobileLaravelFCM\Message\Topics;
+use LaravelFCM\Message\Topics;
 use Monolog\Handler\StreamHandler;
 use Psr\Http\Message\ResponseInterface;
 

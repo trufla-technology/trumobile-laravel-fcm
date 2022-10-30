@@ -1,10 +1,10 @@
 <?php
 
-use TruMobileLaravelFCM\Message\Exceptions\InvalidOptionsException;
-use TruMobileLaravelFCM\Message\OptionsBuilder;
-use TruMobileLaravelFCM\Message\OptionsPriorities;
-use TruMobileLaravelFCM\Message\PayloadDataBuilder;
-use TruMobileLaravelFCM\Message\PayloadNotificationBuilder;
+use LaravelFCM\Message\Exceptions\InvalidOptionsException;
+use LaravelFCM\Message\OptionsBuilder;
+use LaravelFCM\Message\OptionsPriorities;
+use LaravelFCM\Message\PayloadDataBuilder;
+use LaravelFCM\Message\PayloadNotificationBuilder;
 
 class MessageTest extends FCMTestCase
 {

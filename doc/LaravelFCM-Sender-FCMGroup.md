@@ -1,4 +1,4 @@
-TruMobileLaravelFCM\Sender\FCMGroup
+LaravelFCM\Sender\FCMGroup
 ===============
 
 Class FCMGroup
@@ -7,8 +7,8 @@ Class FCMGroup
 
 
 * Class name: FCMGroup
-* Namespace: TruMobileLaravelFCM\Sender
-* Parent class: [TruMobileLaravelFCM\Sender\BaseSender](TruMobileLaravelFCM-Sender-BaseSender.md)
+* Namespace: LaravelFCM\Sender
+* Parent class: [LaravelFCM\Sender\BaseSender](LaravelFCM-Sender-BaseSender.md)
 
 
 
@@ -83,7 +83,7 @@ Methods
 
 ### createGroup
 
-    null TruMobileLaravelFCM\Sender\FCMGroup::createGroup($notificationKeyName, array $registrationIds)
+    null LaravelFCM\Sender\FCMGroup::createGroup($notificationKeyName, array $registrationIds)
 
 Create a group
 
@@ -100,7 +100,7 @@ Create a group
 
 ### addToGroup
 
-    null TruMobileLaravelFCM\Sender\FCMGroup::addToGroup($notificationKeyName, $notificationKey, array $registrationIds)
+    null LaravelFCM\Sender\FCMGroup::addToGroup($notificationKeyName, $notificationKey, array $registrationIds)
 
 add registrationId to a existing group
 
@@ -118,7 +118,7 @@ add registrationId to a existing group
 
 ### removeFromGroup
 
-    null TruMobileLaravelFCM\Sender\FCMGroup::removeFromGroup($notificationKeyName, $notificationKey, array $registeredIds)
+    null LaravelFCM\Sender\FCMGroup::removeFromGroup($notificationKeyName, $notificationKey, array $registeredIds)
 
 remove registrationId to a existing group
 
@@ -136,7 +136,7 @@ remove registrationId to a existing group
 
 ### getUrl
 
-    string TruMobileLaravelFCM\Sender\BaseSender::getUrl()
+    string LaravelFCM\Sender\BaseSender::getUrl()
 
 get the url
 
@@ -144,21 +144,21 @@ get the url
 
 * Visibility: **protected**
 * This method is **abstract**.
-* This method is defined by [TruMobileLaravelFCM\Sender\BaseSender](TruMobileLaravelFCM-Sender-BaseSender.md)
+* This method is defined by [LaravelFCM\Sender\BaseSender](LaravelFCM-Sender-BaseSender.md)
 
 
 
 
 ### __construct
 
-    mixed TruMobileLaravelFCM\Sender\BaseSender::__construct()
+    mixed LaravelFCM\Sender\BaseSender::__construct()
 
 BaseSender constructor.
 
 
 
 * Visibility: **public**
-* This method is defined by [TruMobileLaravelFCM\Sender\BaseSender](TruMobileLaravelFCM-Sender-BaseSender.md)
+* This method is defined by [LaravelFCM\Sender\BaseSender](LaravelFCM-Sender-BaseSender.md)
 
 
 

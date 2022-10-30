@@ -1,4 +1,4 @@
-TruMobileLaravelFCM\Sender\BaseSender
+LaravelFCM\Sender\BaseSender
 ===============
 
 Class BaseSender
@@ -7,7 +7,7 @@ Class BaseSender
 
 
 * Class name: BaseSender
-* Namespace: TruMobileLaravelFCM\Sender
+* Namespace: LaravelFCM\Sender
 * This is an **abstract** class
 
 
@@ -57,7 +57,7 @@ Methods
 
 ### __construct
 
-    mixed TruMobileLaravelFCM\Sender\BaseSender::__construct()
+    mixed LaravelFCM\Sender\BaseSender::__construct()
 
 BaseSender constructor.
 
@@ -70,7 +70,7 @@ BaseSender constructor.
 
 ### getUrl
 
-    string TruMobileLaravelFCM\Sender\BaseSender::getUrl()
+    string LaravelFCM\Sender\BaseSender::getUrl()
 
 get the url
 

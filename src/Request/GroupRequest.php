@@ -1,6 +1,6 @@
 <?php
 
-namespace TruMobileLaravelFCM\Request;
+namespace LaravelFCM\Request;
 
 /**
  * Class GroupRequest.

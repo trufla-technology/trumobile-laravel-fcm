@@ -1,8 +1,8 @@
 <?php
 
-namespace TruMobileLaravelFCM\Sender;
+namespace LaravelFCM\Sender;
 
-use TruMobileLaravelFCM\Request\GroupRequest;
+use LaravelFCM\Request\GroupRequest;
 use Psr\Http\Message\ResponseInterface;
 
 /**

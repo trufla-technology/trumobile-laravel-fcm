@@ -1,4 +1,4 @@
-TruMobileLaravelFCM\Message\PayloadDataBuilder
+LaravelFCM\Message\PayloadDataBuilder
 ===============
 
 Class PayloadDataBuilder
@@ -7,7 +7,7 @@ Official google documentation :
 
 
 * Class name: PayloadDataBuilder
-* Namespace: TruMobileLaravelFCM\Message
+* Namespace: LaravelFCM\Message
 
 
 
@@ -21,7 +21,7 @@ Methods
 
 ### addData
 
-    \TruMobileLaravelFCM\Message\PayloadDataBuilder TruMobileLaravelFCM\Message\PayloadDataBuilder::addData(array $data)
+    \LaravelFCM\Message\PayloadDataBuilder LaravelFCM\Message\PayloadDataBuilder::addData(array $data)
 
 add data to existing data
 
@@ -37,7 +37,7 @@ add data to existing data
 
 ### setData
 
-    \TruMobileLaravelFCM\Message\PayloadDataBuilder TruMobileLaravelFCM\Message\PayloadDataBuilder::setData(array $data)
+    \LaravelFCM\Message\PayloadDataBuilder LaravelFCM\Message\PayloadDataBuilder::setData(array $data)
 
 erase data with new data
 
@@ -53,7 +53,7 @@ erase data with new data
 
 ### removeAllData
 
-    mixed TruMobileLaravelFCM\Message\PayloadDataBuilder::removeAllData()
+    mixed LaravelFCM\Message\PayloadDataBuilder::removeAllData()
 
 Remove all data
 
@@ -66,7 +66,7 @@ Remove all data
 
 ### getData
 
-    array TruMobileLaravelFCM\Message\PayloadDataBuilder::getData()
+    array LaravelFCM\Message\PayloadDataBuilder::getData()
 
 return data
 
@@ -79,7 +79,7 @@ return data
 
 ### build
 
-    \TruMobileLaravelFCM\Message\PayloadData TruMobileLaravelFCM\Message\PayloadDataBuilder::build()
+    \LaravelFCM\Message\PayloadData LaravelFCM\Message\PayloadDataBuilder::build()
 
 generate a PayloadData
 
