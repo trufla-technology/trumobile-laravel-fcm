@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelFCM\Response;
+namespace TruMobileLaravelFCM\Response;
 
 /**
  * Interface TopicResponseContract.

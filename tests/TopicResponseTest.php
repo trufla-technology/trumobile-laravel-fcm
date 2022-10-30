@@ -1,7 +1,7 @@
 <?php
 
 use GuzzleHttp\Psr7\Response;
-use LaravelFCM\Response\TopicResponse;
+use TruMobileLaravelFCM\Response\TopicResponse;
 
 class TopicResponseTest extends FCMTestCase
 {
@@ -10,7 +10,7 @@ class TopicResponseTest extends FCMTestCase
      */
     public function it_construct_a_topic_response_with_success()
     {
-        $topic = new \LaravelFCM\Message\Topics();
+        $topic = new \TruMobileLaravelFCM\Message\Topics();
         $topic->topic('topicName');
 
         $response = new Response(200, [], '{ 
@@ -29,7 +29,7 @@ class TopicResponseTest extends FCMTestCase
      */
     public function it_construct_a_topic_response_with_error()
     {
-        $topic = new \LaravelFCM\Message\Topics();
+        $topic = new \TruMobileLaravelFCM\Message\Topics();
         $topic->topic('topicName');
 
         $response = new Response(200, [], '{ 
@@ -48,7 +48,7 @@ class TopicResponseTest extends FCMTestCase
      */
     public function it_construct_a_topic_response_with_error_and_it_should_retry()
     {
-        $topic = new \LaravelFCM\Message\Topics();
+        $topic = new \TruMobileLaravelFCM\Message\Topics();
         $topic->topic('topicName');
 
         $response = new Response(200, [], '{ 

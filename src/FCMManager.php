@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelFCM;
+namespace TruMobileLaravelFCM;
 
 use GuzzleHttp\Client;
 use Illuminate\Support\Manager;

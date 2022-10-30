@@ -1,4 +1,4 @@
-LaravelFCM\Message\Options
+TruMobileLaravelFCM\Message\Options
 ===============
 
 Class Options
@@ -7,7 +7,7 @@ Class Options
 
 
 * Class name: Options
-* Namespace: LaravelFCM\Message
+* Namespace: TruMobileLaravelFCM\Message
 * This class implements: Illuminate\Contracts\Support\Arrayable
 
 
@@ -21,7 +21,7 @@ Methods
 
 ### __construct
 
-    mixed LaravelFCM\Message\Options::__construct(\LaravelFCM\Message\OptionsBuilder $builder)
+    mixed TruMobileLaravelFCM\Message\Options::__construct(\TruMobileLaravelFCM\Message\OptionsBuilder $builder)
 
 Options constructor.
 
@@ -31,13 +31,13 @@ Options constructor.
 
 
 #### Arguments
-* $builder **[LaravelFCM\Message\OptionsBuilder](LaravelFCM-Message-OptionsBuilder.md)**
+* $builder **[TruMobileLaravelFCM\Message\OptionsBuilder](TruMobileLaravelFCM-Message-OptionsBuilder.md)**
 
 
 
 ### toArray
 
-    array LaravelFCM\Message\Options::toArray()
+    array TruMobileLaravelFCM\Message\Options::toArray()
 
 Transform Option to array
 

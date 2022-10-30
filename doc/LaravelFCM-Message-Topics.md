@@ -1,4 +1,4 @@
-LaravelFCM\Message\Topics
+TruMobileLaravelFCM\Message\Topics
 ===============
 
 Class Topics
@@ -7,7 +7,7 @@ Create topic or a topic condition
 
 
 * Class name: Topics
-* Namespace: LaravelFCM\Message
+* Namespace: TruMobileLaravelFCM\Message
 
 
 
@@ -21,7 +21,7 @@ Methods
 
 ### topic
 
-    \LaravelFCM\Message\Topics LaravelFCM\Message\Topics::topic(string $first)
+    \TruMobileLaravelFCM\Message\Topics TruMobileLaravelFCM\Message\Topics::topic(string $first)
 
 Add a topic, this method should be called before any conditional topic
 
@@ -37,7 +37,7 @@ Add a topic, this method should be called before any conditional topic
 
 ### orTopic
 
-    \LaravelFCM\Message\Topics LaravelFCM\Message\Topics::orTopic(string|\Closure $first)
+    \TruMobileLaravelFCM\Message\Topics TruMobileLaravelFCM\Message\Topics::orTopic(string|\Closure $first)
 
 Add a or condition to the precedent topic set
 
@@ -73,7 +73,7 @@ Equivalent of this: **'TopicA' in topics && ('TopicB' in topics || 'TopicC' in t
 
 ### andTopic
 
-    \LaravelFCM\Message\Topics LaravelFCM\Message\Topics::andTopic(string|\Closure $first)
+    \TruMobileLaravelFCM\Message\Topics TruMobileLaravelFCM\Message\Topics::andTopic(string|\Closure $first)
 
 Add a and condition to the precedent topic set
 
@@ -109,7 +109,7 @@ Equivalent of this: **'TopicA' in topics || ('TopicB' in topics && 'TopicC' in t
 
 ### build
 
-    array|string LaravelFCM\Message\Topics::build()
+    array|string TruMobileLaravelFCM\Message\Topics::build()
 
 Transform to array
 
@@ -122,7 +122,7 @@ Transform to array
 
 ### hasOnlyOneTopic
 
-    boolean LaravelFCM\Message\Topics::hasOnlyOneTopic()
+    boolean TruMobileLaravelFCM\Message\Topics::hasOnlyOneTopic()
 
 Check if only one topic was set
 

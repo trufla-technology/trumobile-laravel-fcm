@@ -1,4 +1,4 @@
-LaravelFCM\Message\OptionsPriorities
+TruMobileLaravelFCM\Message\OptionsPriorities
 ===============
 
 Class OptionsPriorities
@@ -7,7 +7,7 @@ Class OptionsPriorities
 
 
 * Class name: OptionsPriorities
-* Namespace: LaravelFCM\Message
+* Namespace: TruMobileLaravelFCM\Message
 
 
 
@@ -39,7 +39,7 @@ Methods
 
 ### getPriorities
 
-    array LaravelFCM\Message\OptionsPriorities::getPriorities()
+    array TruMobileLaravelFCM\Message\OptionsPriorities::getPriorities()
 
 
 
@@ -53,7 +53,7 @@ Methods
 
 ### isValid
 
-    boolean LaravelFCM\Message\OptionsPriorities::isValid($priority)
+    boolean TruMobileLaravelFCM\Message\OptionsPriorities::isValid($priority)
 
 check if this priority is supported by fcm
 

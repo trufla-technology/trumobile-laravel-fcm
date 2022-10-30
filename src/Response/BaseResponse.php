@@ -1,11 +1,11 @@
 <?php
 
-namespace LaravelFCM\Response;
+namespace TruMobileLaravelFCM\Response;
 
 use Psr\Http\Message\ResponseInterface;
-use LaravelFCM\Response\Exceptions\ServerResponseException;
-use LaravelFCM\Response\Exceptions\InvalidRequestException;
-use LaravelFCM\Response\Exceptions\UnauthorizedRequestException;
+use TruMobileLaravelFCM\Response\Exceptions\ServerResponseException;
+use TruMobileLaravelFCM\Response\Exceptions\InvalidRequestException;
+use TruMobileLaravelFCM\Response\Exceptions\UnauthorizedRequestException;
 
 /**
  * Class BaseResponse.

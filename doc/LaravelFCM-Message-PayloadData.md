@@ -1,4 +1,4 @@
-LaravelFCM\Message\PayloadData
+TruMobileLaravelFCM\Message\PayloadData
 ===============
 
 Class PayloadData
@@ -7,7 +7,7 @@ Class PayloadData
 
 
 * Class name: PayloadData
-* Namespace: LaravelFCM\Message
+* Namespace: TruMobileLaravelFCM\Message
 * This class implements: Illuminate\Contracts\Support\Arrayable
 
 
@@ -21,7 +21,7 @@ Methods
 
 ### __construct
 
-    mixed LaravelFCM\Message\PayloadData::__construct(\LaravelFCM\Message\PayloadDataBuilder $builder)
+    mixed TruMobileLaravelFCM\Message\PayloadData::__construct(\TruMobileLaravelFCM\Message\PayloadDataBuilder $builder)
 
 PayloadData constructor.
 
@@ -31,13 +31,13 @@ PayloadData constructor.
 
 
 #### Arguments
-* $builder **[LaravelFCM\Message\PayloadDataBuilder](LaravelFCM-Message-PayloadDataBuilder.md)**
+* $builder **[TruMobileLaravelFCM\Message\PayloadDataBuilder](TruMobileLaravelFCM-Message-PayloadDataBuilder.md)**
 
 
 
 ### toArray
 
-    array LaravelFCM\Message\PayloadData::toArray()
+    array TruMobileLaravelFCM\Message\PayloadData::toArray()
 
 Transform payloadData to array
 

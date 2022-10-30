@@ -1,4 +1,4 @@
-LaravelFCM\Message\Exceptions\InvalidOptionsException
+TruMobileLaravelFCM\Message\Exceptions\InvalidOptionsException
 ===============
 
 Class InvalidOptionsException
@@ -7,7 +7,7 @@ Class InvalidOptionsException
 
 
 * Class name: InvalidOptionsException
-* Namespace: LaravelFCM\Message\Exceptions
+* Namespace: TruMobileLaravelFCM\Message\Exceptions
 * Parent class: Exception
 
 

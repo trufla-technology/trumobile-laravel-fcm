@@ -1,4 +1,4 @@
-LaravelFCM\Response\GroupResponse
+TruMobileLaravelFCM\Response\GroupResponse
 ===============
 
 Class GroupResponse
@@ -7,9 +7,9 @@ Class GroupResponse
 
 
 * Class name: GroupResponse
-* Namespace: LaravelFCM\Response
-* Parent class: [LaravelFCM\Response\BaseResponse](LaravelFCM-Response-BaseResponse.md)
-* This class implements: [LaravelFCM\Response\GroupResponseContract](LaravelFCM-Response-GroupResponseContract.md)
+* Namespace: TruMobileLaravelFCM\Response
+* Parent class: [TruMobileLaravelFCM\Response\BaseResponse](TruMobileLaravelFCM-Response-BaseResponse.md)
+* This class implements: [TruMobileLaravelFCM\Response\GroupResponseContract](TruMobileLaravelFCM-Response-GroupResponseContract.md)
 
 
 Constants
@@ -64,14 +64,14 @@ Methods
 
 ### __construct
 
-    mixed LaravelFCM\Response\BaseResponse::__construct(\GuzzleHttp\Psr7\Response $response)
+    mixed TruMobileLaravelFCM\Response\BaseResponse::__construct(\GuzzleHttp\Psr7\Response $response)
 
 BaseResponse constructor.
 
 
 
 * Visibility: **public**
-* This method is defined by [LaravelFCM\Response\BaseResponse](LaravelFCM-Response-BaseResponse.md)
+* This method is defined by [TruMobileLaravelFCM\Response\BaseResponse](TruMobileLaravelFCM-Response-BaseResponse.md)
 
 
 #### Arguments
@@ -81,7 +81,7 @@ BaseResponse constructor.
 
 ### parseResponse
 
-    mixed LaravelFCM\Response\BaseResponse::parseResponse(array $responseInJson)
+    mixed TruMobileLaravelFCM\Response\BaseResponse::parseResponse(array $responseInJson)
 
 parse the response
 
@@ -89,7 +89,7 @@ parse the response
 
 * Visibility: **protected**
 * This method is **abstract**.
-* This method is defined by [LaravelFCM\Response\BaseResponse](LaravelFCM-Response-BaseResponse.md)
+* This method is defined by [TruMobileLaravelFCM\Response\BaseResponse](TruMobileLaravelFCM-Response-BaseResponse.md)
 
 
 #### Arguments
@@ -99,7 +99,7 @@ parse the response
 
 ### logResponse
 
-    mixed LaravelFCM\Response\BaseResponse::logResponse()
+    mixed TruMobileLaravelFCM\Response\BaseResponse::logResponse()
 
 Log the response
 
@@ -107,63 +107,63 @@ Log the response
 
 * Visibility: **protected**
 * This method is **abstract**.
-* This method is defined by [LaravelFCM\Response\BaseResponse](LaravelFCM-Response-BaseResponse.md)
+* This method is defined by [TruMobileLaravelFCM\Response\BaseResponse](TruMobileLaravelFCM-Response-BaseResponse.md)
 
 
 
 
 ### numberSuccess
 
-    integer LaravelFCM\Response\GroupResponseContract::numberSuccess()
+    integer TruMobileLaravelFCM\Response\GroupResponseContract::numberSuccess()
 
 Get the number of device reached with success
 
 
 
 * Visibility: **public**
-* This method is defined by [LaravelFCM\Response\GroupResponseContract](LaravelFCM-Response-GroupResponseContract.md)
+* This method is defined by [TruMobileLaravelFCM\Response\GroupResponseContract](TruMobileLaravelFCM-Response-GroupResponseContract.md)
 
 
 
 
 ### numberFailure
 
-    integer LaravelFCM\Response\GroupResponseContract::numberFailure()
+    integer TruMobileLaravelFCM\Response\GroupResponseContract::numberFailure()
 
 Get the number of device which thrown an error
 
 
 
 * Visibility: **public**
-* This method is defined by [LaravelFCM\Response\GroupResponseContract](LaravelFCM-Response-GroupResponseContract.md)
+* This method is defined by [TruMobileLaravelFCM\Response\GroupResponseContract](TruMobileLaravelFCM-Response-GroupResponseContract.md)
 
 
 
 
 ### tokensFailed
 
-    array LaravelFCM\Response\GroupResponseContract::tokensFailed()
+    array TruMobileLaravelFCM\Response\GroupResponseContract::tokensFailed()
 
 Get all token in group that fcm cannot reach
 
 
 
 * Visibility: **public**
-* This method is defined by [LaravelFCM\Response\GroupResponseContract](LaravelFCM-Response-GroupResponseContract.md)
+* This method is defined by [TruMobileLaravelFCM\Response\GroupResponseContract](TruMobileLaravelFCM-Response-GroupResponseContract.md)
 
 
 
 
 ### isJsonResponse
 
-    mixed LaravelFCM\Response\BaseResponse::isJsonResponse(\GuzzleHttp\Psr7\Response $response)
+    mixed TruMobileLaravelFCM\Response\BaseResponse::isJsonResponse(\GuzzleHttp\Psr7\Response $response)
 
 Check if the response given by fcm is parsable
 
 
 
 * Visibility: **private**
-* This method is defined by [LaravelFCM\Response\BaseResponse](LaravelFCM-Response-BaseResponse.md)
+* This method is defined by [TruMobileLaravelFCM\Response\BaseResponse](TruMobileLaravelFCM-Response-BaseResponse.md)
 
 
 #### Arguments

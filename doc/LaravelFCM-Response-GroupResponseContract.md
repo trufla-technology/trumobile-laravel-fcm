@@ -1,4 +1,4 @@
-LaravelFCM\Response\GroupResponseContract
+TruMobileLaravelFCM\Response\GroupResponseContract
 ===============
 
 Interface GroupResponseContract
@@ -7,7 +7,7 @@ Interface GroupResponseContract
 
 
 * Interface name: GroupResponseContract
-* Namespace: LaravelFCM\Response
+* Namespace: TruMobileLaravelFCM\Response
 * This is an **interface**
 
 
@@ -21,7 +21,7 @@ Methods
 
 ### numberSuccess
 
-    integer LaravelFCM\Response\GroupResponseContract::numberSuccess()
+    integer TruMobileLaravelFCM\Response\GroupResponseContract::numberSuccess()
 
 Get the number of device reached with success
 
@@ -34,7 +34,7 @@ Get the number of device reached with success
 
 ### numberFailure
 
-    integer LaravelFCM\Response\GroupResponseContract::numberFailure()
+    integer TruMobileLaravelFCM\Response\GroupResponseContract::numberFailure()
 
 Get the number of device which thrown an error
 
@@ -47,7 +47,7 @@ Get the number of device which thrown an error
 
 ### tokensFailed
 
-    array LaravelFCM\Response\GroupResponseContract::tokensFailed()
+    array TruMobileLaravelFCM\Response\GroupResponseContract::tokensFailed()
 
 Get all token in group that fcm cannot reach
 

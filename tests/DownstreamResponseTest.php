@@ -1,7 +1,7 @@
 <?php
 
 use GuzzleHttp\Psr7\Response;
-use LaravelFCM\Response\DownstreamResponse;
+use TruMobileLaravelFCM\Response\DownstreamResponse;
 
 class DownstreamResponseTest extends FCMTestCase
 {

@@ -1,5 +1,5 @@
 {
-    "name": "brozot/laravel-fcm",
+    "name": "trufla-technology/trumobile-laravel-fcm",
     "description": "Laravel / Lumen package for Firebase Cloud Messaging ",
     "keywords": [
         "laravel",
@@ -32,8 +32,8 @@
     },
     "autoload": {
         "psr-4": {
-            "LaravelFCM\\": "src/",
-            "LaravelFCM\\Mocks\\": "tests/mocks"
+            "TruMobileLaravelFCM\\": "src/",
+            "TruMobileLaravelFCM\\Mocks\\": "tests/mocks"
         }
     },
     "autoload-dev": {
@@ -46,11 +46,11 @@
     "extra": {
         "laravel": {
             "providers": [
-                "LaravelFCM\\FCMServiceProvider"
+                "TruMobileLaravelFCM\\FCMServiceProvider"
             ],
             "aliases": {
-                "FCM": "LaravelFCM\\Facades\\FCM",
-                "FCMGroup": "LaravelFCM\\Facades\\FCMGroup"
+                "FCM": "TruMobileLaravelFCM\\Facades\\FCM",
+                "FCMGroup": "TruMobileLaravelFCM\\Facades\\FCMGroup"
             }
         }
     }

@@ -1,4 +1,4 @@
-LaravelFCM\Message\PayloadNotification
+TruMobileLaravelFCM\Message\PayloadNotification
 ===============
 
 Class PayloadNotification
@@ -7,7 +7,7 @@ Class PayloadNotification
 
 
 * Class name: PayloadNotification
-* Namespace: LaravelFCM\Message
+* Namespace: TruMobileLaravelFCM\Message
 * This class implements: Illuminate\Contracts\Support\Arrayable
 
 
@@ -21,7 +21,7 @@ Methods
 
 ### __construct
 
-    mixed LaravelFCM\Message\PayloadNotification::__construct(\LaravelFCM\Message\PayloadNotificationBuilder $builder)
+    mixed TruMobileLaravelFCM\Message\PayloadNotification::__construct(\TruMobileLaravelFCM\Message\PayloadNotificationBuilder $builder)
 
 PayloadNotification constructor.
 
@@ -31,13 +31,13 @@ PayloadNotification constructor.
 
 
 #### Arguments
-* $builder **[LaravelFCM\Message\PayloadNotificationBuilder](LaravelFCM-Message-PayloadNotificationBuilder.md)**
+* $builder **[TruMobileLaravelFCM\Message\PayloadNotificationBuilder](TruMobileLaravelFCM-Message-PayloadNotificationBuilder.md)**
 
 
 
 ### toArray
 
-    array LaravelFCM\Message\PayloadNotification::toArray()
+    array TruMobileLaravelFCM\Message\PayloadNotification::toArray()
 
 convert PayloadNotification to array
 

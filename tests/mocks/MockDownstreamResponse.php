@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelFCM\Mocks;
+namespace TruMobileLaravelFCM\Mocks;
 
-use LaravelFCM\Response\DownstreamResponse;
-use LaravelFCM\Response\DownstreamResponseContract;
+use TruMobileLaravelFCM\Response\DownstreamResponse;
+use TruMobileLaravelFCM\Response\DownstreamResponseContract;
 
 /**
  * Class MockDownstreamResponse **Only use it for testing**.

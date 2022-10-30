@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelFCM\Request;
+namespace TruMobileLaravelFCM\Request;
 
 /**
  * Class BaseRequest.

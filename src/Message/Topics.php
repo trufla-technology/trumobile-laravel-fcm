@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelFCM\Message;
+namespace TruMobileLaravelFCM\Message;
 
 use Closure;
-use LaravelFCM\Message\Exceptions\NoTopicProvidedException;
+use TruMobileLaravelFCM\Message\Exceptions\NoTopicProvidedException;
 
 /**
  * Class Topics.

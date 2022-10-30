@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelFCM;
+namespace TruMobileLaravelFCM;
 
 use Illuminate\Support\Str;
-use LaravelFCM\Sender\FCMGroup;
-use LaravelFCM\Sender\FCMSender;
+use TruMobileLaravelFCM\Sender\FCMGroup;
+use TruMobileLaravelFCM\Sender\FCMSender;
 use Illuminate\Support\ServiceProvider;
 
 class FCMServiceProvider extends ServiceProvider

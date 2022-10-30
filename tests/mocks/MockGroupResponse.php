@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelFCM\Mocks;
+namespace TruMobileLaravelFCM\Mocks;
 
-use LaravelFCM\Response\GroupResponseContract;
+use TruMobileLaravelFCM\Response\GroupResponseContract;
 
 /**
  * Class MockGroupResponse **Only use it for testing**.

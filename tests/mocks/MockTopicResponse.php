@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelFCM\Mocks;
+namespace TruMobileLaravelFCM\Mocks;
 
-use LaravelFCM\Response\TopicResponseContract;
+use TruMobileLaravelFCM\Response\TopicResponseContract;
 
 /**
  * Class MockTopicResponse **Only use it for testing**.

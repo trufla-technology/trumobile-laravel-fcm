@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelFCM\Sender;
+namespace TruMobileLaravelFCM\Sender;
 
 use GuzzleHttp\ClientInterface;
 

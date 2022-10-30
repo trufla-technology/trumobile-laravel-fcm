@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelFCM\Message;
+namespace TruMobileLaravelFCM\Message;
 
 use Illuminate\Contracts\Support\Arrayable;
 

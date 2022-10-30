@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelFCM\Message\Exceptions;
+namespace TruMobileLaravelFCM\Message\Exceptions;
 
 use Exception;
 

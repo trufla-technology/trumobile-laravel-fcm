@@ -1,38 +1,38 @@
 API Index
 =========
 
-* LaravelFCM
-    * LaravelFCM\Message
-        * LaravelFCM\Message\Exceptions
-            * [InvalidOptionsException](LaravelFCM-Message-Exceptions-InvalidOptionsException.md)
-            * [NoTopicProvidedException](LaravelFCM-Message-Exceptions-NoTopicProvidedException.md)
-        * [Options](LaravelFCM-Message-Options.md)
-        * [OptionsBuilder](LaravelFCM-Message-OptionsBuilder.md)
-        * [OptionsPriorities](LaravelFCM-Message-OptionsPriorities.md)
-        * [PayloadData](LaravelFCM-Message-PayloadData.md)
-        * [PayloadDataBuilder](LaravelFCM-Message-PayloadDataBuilder.md)
-        * [PayloadNotification](LaravelFCM-Message-PayloadNotification.md)
-        * [PayloadNotificationBuilder](LaravelFCM-Message-PayloadNotificationBuilder.md)
-        * [Topics](LaravelFCM-Message-Topics.md)
-    * LaravelFCM\Sender
-        * [BaseSender](LaravelFCM-Sender-BaseSender.md)
-        * [FCMGroup](LaravelFCM-Sender-FCMGroup.md)
-        * [FCMSender](LaravelFCM-Sender-FCMSender.md)
-    * LaravelFCM\Response
-        * [BaseResponse](LaravelFCM-Response-BaseResponse.md)
-        * [DownstreamResponse](LaravelFCM-Response-DownstreamResponse.md)
-        * [DownstreamResponseContract](LaravelFCM-Response-DownstreamResponseContract.md)
-        * LaravelFCM\Response\Exceptions
-            * [InvalidRequestException](LaravelFCM-Response-Exceptions-InvalidRequestException.md)
-            * [ServerResponseException](LaravelFCM-Response-Exceptions-ServerResponseException.md)
-            * [UnauthorizedRequestException](LaravelFCM-Response-Exceptions-UnauthorizedRequestException.md)
-        * [GroupResponse](LaravelFCM-Response-GroupResponse.md)
-        * [GroupResponseContract](LaravelFCM-Response-GroupResponseContract.md)
-        * [TopicResponse](LaravelFCM-Response-TopicResponse.md)
-        * [TopicResponseContract](LaravelFCM-Response-TopicResponseContract.md)
-    * LaravelFCM\Test
-        * LaravelFCM\Test\Mocks
-            * [MockDownstreamResponse](LaravelFCM-Test-Mocks-MockDownstreamResponse.md)
-            * [MockGroupResponse](LaravelFCM-Test-Mocks-MockGroupResponse.md)
-            * [MockTopicResponse](LaravelFCM-Test-Mocks-MockTopicResponse.md)
+* TruMobileLaravelFCM
+    * TruMobileLaravelFCM\Message
+        * TruMobileLaravelFCM\Message\Exceptions
+            * [InvalidOptionsException](TruMobileLaravelFCM-Message-Exceptions-InvalidOptionsException.md)
+            * [NoTopicProvidedException](TruMobileLaravelFCM-Message-Exceptions-NoTopicProvidedException.md)
+        * [Options](TruMobileLaravelFCM-Message-Options.md)
+        * [OptionsBuilder](TruMobileLaravelFCM-Message-OptionsBuilder.md)
+        * [OptionsPriorities](TruMobileLaravelFCM-Message-OptionsPriorities.md)
+        * [PayloadData](TruMobileLaravelFCM-Message-PayloadData.md)
+        * [PayloadDataBuilder](TruMobileLaravelFCM-Message-PayloadDataBuilder.md)
+        * [PayloadNotification](TruMobileLaravelFCM-Message-PayloadNotification.md)
+        * [PayloadNotificationBuilder](TruMobileLaravelFCM-Message-PayloadNotificationBuilder.md)
+        * [Topics](TruMobileLaravelFCM-Message-Topics.md)
+    * TruMobileLaravelFCM\Sender
+        * [BaseSender](TruMobileLaravelFCM-Sender-BaseSender.md)
+        * [FCMGroup](TruMobileLaravelFCM-Sender-FCMGroup.md)
+        * [FCMSender](TruMobileLaravelFCM-Sender-FCMSender.md)
+    * TruMobileLaravelFCM\Response
+        * [BaseResponse](TruMobileLaravelFCM-Response-BaseResponse.md)
+        * [DownstreamResponse](TruMobileLaravelFCM-Response-DownstreamResponse.md)
+        * [DownstreamResponseContract](TruMobileLaravelFCM-Response-DownstreamResponseContract.md)
+        * TruMobileLaravelFCM\Response\Exceptions
+            * [InvalidRequestException](TruMobileLaravelFCM-Response-Exceptions-InvalidRequestException.md)
+            * [ServerResponseException](TruMobileLaravelFCM-Response-Exceptions-ServerResponseException.md)
+            * [UnauthorizedRequestException](TruMobileLaravelFCM-Response-Exceptions-UnauthorizedRequestException.md)
+        * [GroupResponse](TruMobileLaravelFCM-Response-GroupResponse.md)
+        * [GroupResponseContract](TruMobileLaravelFCM-Response-GroupResponseContract.md)
+        * [TopicResponse](TruMobileLaravelFCM-Response-TopicResponse.md)
+        * [TopicResponseContract](TruMobileLaravelFCM-Response-TopicResponseContract.md)
+    * TruMobileLaravelFCM\Test
+        * TruMobileLaravelFCM\Test\Mocks
+            * [MockDownstreamResponse](TruMobileLaravelFCM-Test-Mocks-MockDownstreamResponse.md)
+            * [MockGroupResponse](TruMobileLaravelFCM-Test-Mocks-MockGroupResponse.md)
+            * [MockTopicResponse](TruMobileLaravelFCM-Test-Mocks-MockTopicResponse.md)
 

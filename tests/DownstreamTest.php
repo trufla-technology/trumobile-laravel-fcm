@@ -2,7 +2,7 @@
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Psr7\Response;
-use LaravelFCM\Sender\FCMSender;
+use TruMobileLaravelFCM\Sender\FCMSender;
 
 class DownstreamTest extends FCMTestCase
 {
@@ -86,7 +86,7 @@ class DownstreamTest extends FCMTestCase
         $client->shouldReceive('request')->once()->andReturn($response);
 
         $fcm = new FCMSender($client, 'http://test.test');
-        $this->expectException(\LaravelFCM\Response\Exceptions\InvalidRequestException::class);
+        $this->expectException(\TruMobileLaravelFCM\Response\Exceptions\InvalidRequestException::class);
         $fcm->sendTo([]);
     }
 }
