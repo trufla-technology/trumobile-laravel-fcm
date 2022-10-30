@@ -1,5 +1,5 @@
 {
-    "name": "brozot/laravel-fcm",
+    "name": "trufla-technology/trumobile-laravel-fcm",
     "description": "Laravel / Lumen package for Firebase Cloud Messaging ",
     "keywords": [
         "laravel",
