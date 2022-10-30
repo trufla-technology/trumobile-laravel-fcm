@@ -4,11 +4,13 @@
 [![License](https://poser.pugx.org/brozot/laravel-fcm/license)](https://packagist.org/packages/brozot/laravel-fcm)
 
 ## Introduction
+This Repo is an update from [Trufla Technology](https://trufla.com/) Company for [brozot/laravel-fcm](https://github.com/brozot/laravel-fcm)
 
 Laravel-FCM is an easy to use package working with both Laravel and Lumen for sending push notification with [Firebase Cloud Messaging](https://firebase.google.com/docs/cloud-messaging/) (FCM).
 
 It currently **only supports HTTP protocol** for :
 
+- Supports PHP8 & Laravel9.*
 - sending a downstream message to one or multiple devices
 - managing groups and sending message to a group
 - sending topics messages
@@ -20,17 +22,19 @@ It currently **only supports HTTP protocol** for :
 
 To get the latest version of Laravel-FCM on your project, require it from "composer":
 
-
-	$ composer require brozot/laravel-fcm
-
-
-Or you can add it directly in your composer.json file:
+you can add it directly in your composer.json file:
 
 ```json
 {
     "require": {
-        "brozot/laravel-fcm": "1.3.*"
-    }
+      "trufla-technology/trumobile-laravel-fcm": "dev-master"
+    },
+    "repositories": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/trufla-technology/trumobile-laravel-fcm.git"
+        }
+    ]
 }
 ```
 
